@@ -1,21 +1,68 @@
-let nombre = "Pedro";
-let apellido = "Gomez";
-let years = 30;
-console.log( nombre + " " + apellido);
 
-function AgregarDiv() {
+// let nota = 10;
+// if (nota < 4) {
+//     console.log("aplazado");
+// } else if (nota < 7) {
+//     console.log("desaprobado");
+// } else if (nota < 9) {
+//     console.log("aprobado");
+// } else {
+//     console.log("sobresaliente");
+// }
 
+let topping = "oreo";
+let precio = 0;
+let precioFinal = 0;
+let helado = 200;
+
+if (topping=="oreo") {
+    precio =10;
+} else if (topping == "kitkat") {
+    precio =15;
+} else if (topping == "kinder") {
+    precio = 25;
+} else {
+    console.log ("no tenemos este topping")
 }
+precioFinal = helado + precio;
+console.log("el helado cuesta $" + precioFinal)
+//ejercicio clase 11
 
-let numberone = 120;
-let numbertwo = 20;
-let resultadoSuma = numberone + numbertwo;
-let resultadoResta = numberone - numbertwo;
-let resultadoMulti = numberone * numbertwo;
-let resultadoDivision = numberone / numbertwo;
+/*let resultado
+let numero3 = 28;
+let numero4 = 30;
+function suma_y_muestra() {
+    alert ("el resultado es " + resultado);
+}
+suma_y_muestra();
+*/
 
+// Solicita al usuario que introduzca un número entero
+/*let numero = prompt("Introduce un número entero");
 
-console.log("Suma: ", resultadoSuma)
-console.log("Resta: ", resultadoResta)
-console.log("Multiplicacion: ", resultadoMulti)
-console.log("Division: ", resultadoDivision)
+// Llama a la función parImpar y guarda el resultado
+let resultado = parImpar(numero);
+
+// Muestra el resultado en una alerta
+alert("El número " + numero + " es " + resultado);
+
+// Define la función parImpar
+function parImpar(numero) {
+  if (numero % 2 == 0) {
+    return "par";
+  } else {
+    return "impar";
+  }
+}*/
+
+// let nombre = prompt("ingrese su nombre");
+// function saludo() {
+//     if (nombre) {
+//         alert("bienvenido " + nombre);
+//     } else {
+//         alert("de ingresar un nombre");
+//     }
+// }
+
+// saludo()
+

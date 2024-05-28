@@ -1,45 +1,213 @@
-.contenedor {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 300px);
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-.uno {
-    background-color: blue;
+.barra {
+    background-color: #9c8bbb;
+    color: #fff;
 }
-.dos {
-    background-color: aqua;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9c8bbb;
+    padding: 10px 20px;
+    color: #fff;
 }
-.tres {
-    background-color: black;
+
+.video {
+    display: flex;
+    justify-content: center;
 }
-.cuatro {
-    background-color: blueviolet;
+.logo img {
+    height: 80px;
 }
-.cinco {
-    background-color: coral;
+
+footer {
+    background-color: #9c8bbb;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
-.seis {
-    background-color: crimson;
-}
-.siete {
-    background-color: yellow;
-}
-.ocho {
-    background-color: darkorange;
-}
-.nueve {
-    background-color: deeppink;
-}
-@media screen and (min-width: 321px) and (max-width: 768px) {
-    .contenedor {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-} 
-@media screen and (min-width: 769px) {
-   .contenedor {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    } 
-}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
     
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-media li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-media li a img {
+    height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.carousel {
+    
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cardsitas {
+    margin-bottom: 10px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+} 
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+aside {
+    flex: 1;
+    background-color: #9c8bbb86;
+    padding: 10px;
+    width: 20%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float:right;
+    font-style: italic;
+    color: #ffffff;
+  }
+
+.main-content {
+    flex: 3;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+aside h2 {
+    font-size: 1.5em;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    background-color: #9c8bbb;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+body {
+    background-image: url(./IMAGENES/fondo.png);
+    background-position: center;
+    height: 100vh;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
