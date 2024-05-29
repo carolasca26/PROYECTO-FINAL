@@ -211,3 +211,18 @@ th, td {
     padding: 10px;
     text-align: center;
 }
+
+.nada {
+    float: right;
+    text-align: right;
+}
+
+.tabla {
+    display: flex;
+    background-color: #9c8bbb86;
+    background-position: center;
+    text-align: center;
+    border: #9c8bbb;
+    margin: auto;
+    padding: 0%;
+}

@@ -10,7 +10,7 @@
 //     console.log("sobresaliente");
 // }
 
-let topping = "oreo";
+/*let topping = "oreo";
 let precio = 0;
 let precioFinal = 0;
 let helado = 200;
@@ -35,10 +35,10 @@ function suma_y_muestra() {
     alert ("el resultado es " + resultado);
 }
 suma_y_muestra();
-*/
+
 
 // Solicita al usuario que introduzca un número entero
-/*let numero = prompt("Introduce un número entero");
+let numero = prompt("Introduce un número entero");
 
 // Llama a la función parImpar y guarda el resultado
 let resultado = parImpar(numero);
@@ -55,14 +55,26 @@ function parImpar(numero) {
   }
 }*/
 
-// let nombre = prompt("ingrese su nombre");
-// function saludo() {
-//     if (nombre) {
-//         alert("bienvenido " + nombre);
-//     } else {
-//         alert("de ingresar un nombre");
-//     }
-// }
+/*let nombre = prompt("ingrese su nombre");
+function saludo() {
+    if (nombre) {
+alert("bienvenido " + nombre);
+        } else {         
+alert("de ingresar un nombre");
+        }
+    }
 
-// saludo()
+saludo()
+*/
 
+
+let edad = 17;
+if (edad >= 18){
+    console.log("sos mayor de edad");
+} else {
+    console.log("sos menor");
+}
+
+var numero = prompt("indicanos tu edad");
+var resultado = edad(numero);
+alert("bienvenido")
